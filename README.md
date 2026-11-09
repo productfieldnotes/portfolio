@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34601312/README.md)
 # Janset Genel — portfolio site
 
 This is a no-build static website: plain HTML and CSS, designed from the attached UXfolio screenshot. It is ready to host free on GitHub Pages from a public repository.
