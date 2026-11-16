@@ -78,6 +78,8 @@ a:hover { color: var(--accent); }
 .project-title-wrap { grid-column: 2; position: relative; z-index: 1; }
 .project-title-wrap h2 { max-width: 900px; margin: 0; font: 500 clamp(42px, 6vw, 76px)/1.02 var(--sans); letter-spacing: -.06em; }
 .project-title-wrap h2 span { display: block; font-size: .72em; font-weight: 400; letter-spacing: -.045em; }
+.project-title-wrap h2 a:hover { color: var(--accent); }
+.project-heading-subtitle { margin: 12px 0 0; font-size: clamp(19px, 2.2vw, 27px); line-height: 1.35; letter-spacing: -.035em; }
 .project-role { margin: 18px 0 0; color: var(--muted); font: 10px/1.7 var(--mono); text-transform: uppercase; }
 .project-content { align-items: start; }
 .project-body { grid-column: 2 / 4; }
@@ -92,6 +94,14 @@ a:hover { color: var(--accent); }
 .content-block p { margin: 0 0 12px; }
 .content-block ul { margin: 0; padding-left: 16px; }
 .content-block li { padding: 0 0 7px 3px; }
+.pamono-approach { margin-top: 38px; }
+.pamono-approach h4 { margin: 0 0 13px; font-size: clamp(19px, 2.1vw, 25px); font-weight: 500; line-height: 1.35; letter-spacing: -.035em; }
+.pamono-areas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px clamp(24px, 5vw, 70px); margin-top: 26px; }
+.pamono-areas section { padding-top: 12px; border-top: 1px solid var(--rule); }
+.pamono-areas h5 { margin: 0 0 9px; color: var(--accent); font: 10px var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+.pamono-contribution-outcomes { margin-top: 42px; }
+.pamono-focus { margin-top: 38px; }
+.pamono-focus p { font-size: 14px; }
 .outcome-list p { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: baseline; padding: 0 0 11px; margin: 0 0 11px; border-bottom: 1px solid #dad8cf; }
 .outcome-list strong { font: 400 24px var(--sans); color: var(--ink); }
 .outcome-list span { font-size: 12px; }
@@ -205,6 +215,7 @@ a:hover { color: var(--accent); }
   .project-metrics { grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 34px; }
   .project-metrics strong { font-size: 42px; }
   .content-columns { grid-template-columns: 1fr; row-gap: 27px; }
+  .pamono-areas { grid-template-columns: 1fr; gap: 18px; }
   .project-foot { flex-direction: column; gap: 9px; margin-top: 32px; }
   .background-section { padding-top: 19px; padding-bottom: 75px; }
   .background-main, .beyond-title .serif-heading, .education-main, .capabilities-main, .contact-main { grid-column: 1; }
