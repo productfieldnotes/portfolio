@@ -81,6 +81,14 @@ a:hover { color: var(--accent); }
 .project-title-wrap h2 a:hover { color: var(--accent); }
 .project-heading-subtitle { margin: 12px 0 0; font-size: clamp(19px, 2.2vw, 27px); line-height: 1.35; letter-spacing: -.035em; }
 .project-role { margin: 18px 0 0; color: var(--muted); font: 10px/1.7 var(--mono); text-transform: uppercase; }
+.lawpilots-content > section { grid-column: 1 / -1; }
+.lawpilots-content > section p { max-width: 840px; }
+.lawpilots-approach-areas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 24px; }
+.lawpilots-approach-areas section { padding-top: 13px; border-top: 1px solid var(--rule); }
+.lawpilots-approach-areas h4 { margin: 0 0 10px; color: var(--accent); font: 11px/1.55 var(--mono); letter-spacing: .035em; text-transform: uppercase; }
+.lawpilots-approach-areas p { margin: 0; color: #464742; font-size: 13px; line-height: 1.75; }
+.lawpilots-contribution ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 3px; }
+.lawpilots-focus p { font-size: 14px; }
 .project-content { align-items: start; }
 .project-body { grid-column: 2 / 4; }
 .project-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-bottom: 54px; padding: 23px 0 24px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
@@ -180,6 +188,7 @@ a:hover { color: var(--accent); }
 @media (max-width: 850px) {
   .page-grid { grid-template-columns: minmax(105px, 22%) minmax(0, 1fr); column-gap: 24px; }
   .selected-work-index { grid-template-columns: minmax(105px, 22%) repeat(2, minmax(0, 1fr)); }
+  .lawpilots-approach-areas { grid-template-columns: 1fr; gap: 16px; }
   .opening-main { max-width: none; }
   .project-body, .project-image, .background-main, .beyond-title .serif-heading, .education-main, .capabilities-main, .contact-main { grid-column: 2; }
   .page-footer { grid-column: 1 / 3; }
@@ -215,6 +224,7 @@ a:hover { color: var(--accent); }
   .project-metrics { grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 34px; }
   .project-metrics strong { font-size: 42px; }
   .content-columns { grid-template-columns: 1fr; row-gap: 27px; }
+  .lawpilots-contribution ul { grid-template-columns: 1fr; }
   .pamono-areas { grid-template-columns: 1fr; gap: 18px; }
   .project-foot { flex-direction: column; gap: 9px; margin-top: 32px; }
   .background-section { padding-top: 19px; padding-bottom: 75px; }
